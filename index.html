@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/icons-snake-100.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <title>Snake</title>
+</head>
+<body>
+    <div class="area">
+        <div class="area-title">
+            <h1 class="title">SNAKE GAME</h1>
+        </div>
+        
+        <div class="area-score">
+            <div id="score">Score: 0</div>
+            <div class="area-button">
+                <input id="start" type="button" value="Start" onclick="start()">
+                <input id="stop" type="button" value="Stop" onclick="stop()">
+            </div>
+        </div>
+        
+        <canvas id="snake" width="512" height="512"></canvas>
+    </div>
+    
+</body>
+</html>
